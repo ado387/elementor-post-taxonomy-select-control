@@ -9,8 +9,8 @@ class Custom_Taxonomy_Select extends \Elementor\Base_Data_Control {
 
 	public function enqueue()
 	{
-		wp_enqueue_style( 'select2', get_stylesheet_directory_uri() . '/css/elementor/select2.css', '1.0.0' );
-		wp_enqueue_script( 'taxonomy-select', get_stylesheet_directory_uri() . '/js/elementor/taxonomy-select.js', array( 'jquery'), '', true );
+		wp_enqueue_style( 'select2', get_stylesheet_directory_uri() . '/elementor/select2.css', '1.0.0' );
+		wp_enqueue_script( 'taxonomy-select', get_stylesheet_directory_uri() . '/elementor/taxonomy-select.js', array( 'jquery'), '', true );
 	}
 
 	protected function get_default_settings() {

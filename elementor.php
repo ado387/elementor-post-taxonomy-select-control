@@ -1,5 +1,5 @@
 <?php
-
+define( 'THEME_FOLDER_INC', get_stylesheet_directory() );
 
 if ( did_action( 'elementor/loaded' ) ) {
 
