@@ -29,3 +29,9 @@ Defines taxonomy select handlers: sending ajax request, saving of data etc.
 ### select2.css
 
 Overrides Elementor's `max-height` value for select2 dropdown.
+
+## Example usage
+
+- Create `elementor` folder inside of your theme folder and move this files.
+- Require or move contents of `elementor.php` inside `functions.php`.
+- Add control to desired element
