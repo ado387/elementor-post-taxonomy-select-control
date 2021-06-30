@@ -1,5 +1,14 @@
 # Post & Taxonomy Select Controls
-Contains custom Elementor controls that allow selection of any post type or taxonomies.
+Contains custom Elementor controls that allow selection of any post types or taxonomies.
+
+Uses ajax to fetch specified post types / taxonomies (declared in `args` parameter when
+adding control to element).
+Backend functions fetch posts / taxonomies from database using WordPress' native `WP_Query()` 
+and `get_terms()` which are very flexible, customizable and accurate.
+
+Since dropdown uses select2.js library response is structured as per their specification.
+Planned addition is to allow grouping of posts inside of dropdown view by their category,
+as defined in their documentation ((link)[https://github.com/ado387/elementor-post-taxonomy-select-control]).
 
 ## File info:
 
