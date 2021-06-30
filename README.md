@@ -8,7 +8,7 @@ and `get_terms()` which are very flexible, customizable and accurate.
 
 Since dropdown uses select2.js library response is structured as per their specification.
 Planned addition is to allow grouping of posts inside of dropdown view by their category,
-as defined in their documentation ((link)[https://github.com/ado387/elementor-post-taxonomy-select-control]).
+as defined in their documentation ([link](https://select2.org/options#dropdown-option-groups)).
 
 ## File info:
 
