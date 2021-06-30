@@ -5,6 +5,10 @@ that are used to customize those elements.
 These controls allow selection of any post type or taxonomy by fetching them from
 database.
 
+Example usage would be selecting posts (blog posts, products, or any other registered type)
+that are to be shown on front end inside of a slider, grid, etc. Same goes for taxonomies as
+a broader selection tool, allows selecting categories, tags, etc.
+
 Uses ajax to fetch specified post types / taxonomies (declared in `args` parameter when
 adding control to element).
 Backend functions fetch posts / taxonomies from database using WordPress' native `WP_Query()` 
@@ -43,7 +47,7 @@ Defines taxonomy select handlers: sending ajax request, saving of data etc.
 
 Overrides Elementor's `max-height` value for select2 dropdown.
 
-## Example usage
+## Setup
 
 - Create `elementor` folder inside of your theme folder and move this files.
 - Require or move contents of `elementor.php` inside `functions.php`.
