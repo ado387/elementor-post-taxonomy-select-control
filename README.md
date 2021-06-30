@@ -1,4 +1,4 @@
-# Custom Elementor Controls
+# Post & Taxonomy Select Controls
 Contains custom Elementor controls that allow selection of any post type or taxonomies.
 
 ## File info:
