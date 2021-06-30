@@ -1,5 +1,9 @@
 # Post & Taxonomy Select Controls
-Contains custom Elementor controls that allow selection of any post types or taxonomies.
+
+Elementor is WordPress page builder plugin which allows making of custom elements and controls
+that are used to customize those elements.
+These controls allow selection of any post type or taxonomy by fetching them from
+database.
 
 Uses ajax to fetch specified post types / taxonomies (declared in `args` parameter when
 adding control to element).
